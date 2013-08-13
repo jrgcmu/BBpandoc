@@ -26,4 +26,4 @@ The scripts assume that your file is saved. Any error reports will be opened in 
      -V geometry:margin=1in
     ``` 
 
-to `pandoc-pdf.sh` will tell LaTeX to use one-inch margins.
+    to `pandoc-pdf.sh` will tell LaTeX to use one-inch margins.
