@@ -1,6 +1,12 @@
+# About
+
+These scripts allow you to call Pandoc from within BBEdit or Textwrangler.
+
 # Installation instructions
 
-Unzip and copy the folder to `~/Library/Application Support/TextWrangler/Scripts`, replacing “TextWrangler” with “BBEdit” if you use the latter. 
+Unzip and copy the folder to `~/Library/Application Support/BBEdit/Scripts`, replacing "BBEdit" with "TextWrangler" if you use the latter. 
+
+If you have BBEdit, copy `pandoc-preview.sh` to `~/Library/Application Support/BBEdit/Preview Filters` (create this directory if it doesn't exist) to use Pandoc as a preview filter (`control`+`p`). Custom CSS files can be placed in `~/Library/Application Support/BBEdit/Preview CSS`.
 
 # Use
 
@@ -10,20 +16,13 @@ The scripts assume that your file is saved. Any error reports will be opened in 
 
 # Modifications
 
-1. To add a new output format, just modify one of the scripts. 
+It's straightforward to modify the scripts to include new output formats or customize the existing ones.
 
-2. Including
 
-    ```
-    open "${BB_DOC_PATH%%.*}".ext
-    ```
+Including
 
-    where "ext" is the desired extension (e.g., pdf, docx) will tell your system to open the resulting output file using the default application for that type of document.
+```
+open "${BB_DOC_PATH%%.*}".ext
+```
 
-3. Adding
-
-    ```
-     -V geometry:margin=1in
-    ``` 
-
-    to `pandoc-pdf.sh` will tell LaTeX to use one-inch margins.
+where "ext" is the desired extension (e.g., pdf, docx) will tell your system to open the resulting output file using the default application for that type of document.
