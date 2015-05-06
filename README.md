@@ -1,6 +1,6 @@
 # About
 
-These scripts allow you to call Pandoc from within BBEdit or Textwrangler.
+These scripts allow you to call Pandoc from within BBEdit or Textwrangler. If you use BBEdit, you may prefer to use the [BBDoc package](https://github.com/jrgcmu/BBDoc), which also includes a simple preview filter.
 
 # Installation instructions
 
