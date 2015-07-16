@@ -6,7 +6,7 @@ These scripts allow you to call Pandoc from within BBEdit or Textwrangler.
 
 Unzip and copy the folder to `~/Library/Application Support/BBEdit/Scripts`, replacing "BBEdit" with "TextWrangler" if you use the latter. 
 
-If you have BBEdit, copy `pandoc-preview.sh` to `~/Library/Application Support/BBEdit/Preview Filters` (create this directory if it doesn't exist) to use Pandoc as a preview filter (`control`+`p`). Custom CSS files can be placed in `~/Library/Application Support/BBEdit/Preview CSS`. Renaming the file to `DefaultFilter_ext.sh` where "ext" is the extension you use for markdown files will set pandoc as the default preview filter.
+If you have BBEdit, copy `pandoc-preview.sh` to `~/Library/Application Support/BBEdit/Preview Filters` (create this directory if it doesn't exist) to use Pandoc as a preview filter (`control`+`p`). Custom CSS files can be placed in `~/Library/Application Support/BBEdit/Preview CSS`. Renaming the file to `DefaultFilter_LanguageName.sh` where "LanguageName" is the extension you use for markdown files will set pandoc as the default preview filter (e.g. `DefaultFilter_Text File.sh` if use `.txt` for pandoc files.
 
 # Use
 
