@@ -8,7 +8,7 @@ Unzip and copy the folder to `~/Library/Application Support/BBEdit/Scripts`, rep
 
 ## BBedit preview filters
 
-If you have BBEdit, copy `pandoc-preview.sh` to `~/Library/Application Support/BBEdit/Preview Filters` (create this directory if it doesn't exist) to use Pandoc as a preview filter. Custom CSS files can be placed in `~/Library/Application Support/BBEdit/Preview CSS`. Renaming the file to `DefaultFilter_LanguageName.sh` where "LanguageName" is the extension you use for markdown files will set pandoc as the default preview filter (e.g. `DefaultFilter_Text File.sh` if you use `.txt` for pandoc files.
+If you have BBEdit, copy `pandoc-preview.sh` to `~/Library/Application Support/BBEdit/Preview Filters` (create this directory if it doesn't exist) to use Pandoc as a preview filter. Custom CSS files can be placed in `~/Library/Application Support/BBEdit/Preview CSS`. Renaming the file to `DefaultFilter_LanguageName.sh` where "LanguageName" is the extension you use for markdown files will set Pandoc as the default preview filter (e.g. `DefaultFilter_Text File.sh` if you use `.txt` for pandoc files).
 
 If the preview filter doesn't work, you may need to open the terminal, navigate to the preview filter, and use `chmod +x pandoc-preview.sh` to give the filter execute permissions.
 
